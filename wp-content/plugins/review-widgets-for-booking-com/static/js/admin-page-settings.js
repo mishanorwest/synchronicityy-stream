@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){Trustindex_Autocomplete.checkRegex=/booking\.com\/hotel\/([^?#]*).*$/gm});

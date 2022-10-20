@@ -1,0 +1,602 @@
+0000.000 (0) Opened log file at time: Tue, 18 Oct 2022 04:16:32 +0000 on https://synchronicityy.stream
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 5.9.5 PHP: 7.4.32 (cgi-fcgi, Linux www4.g21.pair.com 4.15.0-191-generic #202-Ubuntu SMP Thu Aug 4 01:49:29 UTC 2022 x86_64) MySQL: 8.0.30 (max packet size=16777216) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 59.4M | 4.5M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 603950 MB
+0000.009 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0000.013 (0) Processed schedules. Combining jobs from co-inciding events. Tasks now: Backup files: 1 Backup DB: 1
+0000.027 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1666023206, seconds_ago=43386)
+0000.033 (0) Set semaphore last lock (fd) time to 2022-10-18 04:16:32
+0000.035 (0) Semaphore lock (fd) complete
+0000.042 (0) Backup run: resumption=0, nonce=586060113b52, file_nonce=586060113b52 begun at=1666066592 (0s ago), job type=backup
+0000.046 (0) Scheduling a resumption (1) after 300 seconds (1666066892) in case this run gets aborted
+0000.080 (0) Checking if we have a zip executable available
+0000.083 (0) Testing: /usr/bin/zip
+0000.114 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.116 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.118 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.120 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.122 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.142 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.144 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.180 (0) Working binary zip found: /usr/bin/zip
+0000.183 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.189 (0) Creation of backups of directories: beginning
+0000.194 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.489 (0) Total entities for the zip file: 838 directories, 6505 files (0 skipped as non-modified), 119.9 MB
+0002.494 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.499 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.505 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.509 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.514 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.519 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0002.525 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0002.529 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0002.534 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0002.539 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0002.541 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.3 MB, 6505 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0005.865 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: size is now: 6.30 MB
+0005.872 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 1100 files added (on-disk size: 6450.3 KB)
+0005.878 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 1200 files added (on-disk size: 6450.3 KB)
+0005.883 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 1300 files added (on-disk size: 6450.3 KB)
+0005.888 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 1400 files added (on-disk size: 6450.3 KB)
+0005.893 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 1500 files added (on-disk size: 6450.3 KB)
+0005.899 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 1600 files added (on-disk size: 6450.3 KB)
+0005.904 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 1700 files added (on-disk size: 6450.3 KB)
+0005.909 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 1800 files added (on-disk size: 6450.3 KB)
+0005.914 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 1900 files added (on-disk size: 6450.3 KB)
+0005.920 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 2000 files added (on-disk size: 6450.3 KB)
+0005.922 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.8 MB, 6505 files batched, 1001 (2002) added so far); re-opening (prior size: 6450.3 KB)
+0007.013 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: size is now: 9.60 MB
+0007.021 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 2100 files added (on-disk size: 9826.9 KB)
+0007.026 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 2200 files added (on-disk size: 9826.9 KB)
+0007.030 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 2300 files added (on-disk size: 9826.9 KB)
+0007.035 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 2400 files added (on-disk size: 9826.9 KB)
+0007.041 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 2500 files added (on-disk size: 9826.9 KB)
+0007.046 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 2600 files added (on-disk size: 9826.9 KB)
+0007.051 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 2700 files added (on-disk size: 9826.9 KB)
+0007.056 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 2800 files added (on-disk size: 9826.9 KB)
+0007.061 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 2900 files added (on-disk size: 9826.9 KB)
+0007.066 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 3000 files added (on-disk size: 9826.9 KB)
+0007.068 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.2 MB, 6505 files batched, 1001 (3003) added so far); re-opening (prior size: 9826.9 KB)
+0010.147 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: size is now: 16.40 MB
+0010.155 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 3100 files added (on-disk size: 16748.2 KB)
+0010.160 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 3200 files added (on-disk size: 16748.2 KB)
+0010.165 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 3300 files added (on-disk size: 16748.2 KB)
+0010.171 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 3400 files added (on-disk size: 16748.2 KB)
+0010.176 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 3500 files added (on-disk size: 16748.2 KB)
+0010.181 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 3600 files added (on-disk size: 16748.2 KB)
+0010.186 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 3700 files added (on-disk size: 16748.2 KB)
+0010.192 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 3800 files added (on-disk size: 16748.2 KB)
+0010.197 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 3900 files added (on-disk size: 16748.2 KB)
+0010.199 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 6505 files batched, 901 (3904) added so far); re-opening (prior size: 16748.2 KB)
+0013.795 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: size is now: 23.60 MB
+0013.800 (0) A useful amount of data was added after this amount of zip processing: 4.1 s (normalised: 4.1 s, rate: 6259.4 KB/s)
+0013.804 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.0902149677277, normalised_time=4.089875476111, max_time=13.801456928253, data points known=1, old_max_bytes=26214400, new_max_bytes=53076957)
+0013.811 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 4000 files added (on-disk size: 24153.8 KB)
+0013.816 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 4100 files added (on-disk size: 24153.8 KB)
+0013.821 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 4200 files added (on-disk size: 24153.8 KB)
+0013.825 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 4300 files added (on-disk size: 24153.8 KB)
+0013.830 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 4400 files added (on-disk size: 24153.8 KB)
+0013.835 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 4500 files added (on-disk size: 24153.8 KB)
+0013.840 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 4600 files added (on-disk size: 24153.8 KB)
+0013.845 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 4700 files added (on-disk size: 24153.8 KB)
+0013.850 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 4800 files added (on-disk size: 24153.8 KB)
+0013.855 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 4900 files added (on-disk size: 24153.8 KB)
+0013.857 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (25 MB, 6505 files batched, 1001 (4905) added so far); re-opening (prior size: 24153.8 KB)
+0018.878 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: size is now: 29.70 MB
+0018.890 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 5000 files added (on-disk size: 30459.5 KB)
+0018.898 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 5100 files added (on-disk size: 30459.5 KB)
+0018.903 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 5200 files added (on-disk size: 30459.5 KB)
+0018.909 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 5300 files added (on-disk size: 30459.5 KB)
+0018.914 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 5400 files added (on-disk size: 30459.5 KB)
+0018.919 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 5500 files added (on-disk size: 30459.5 KB)
+0018.924 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 5600 files added (on-disk size: 30459.5 KB)
+0018.930 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 5700 files added (on-disk size: 30459.5 KB)
+0018.936 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 5800 files added (on-disk size: 30459.5 KB)
+0018.941 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 5900 files added (on-disk size: 30459.5 KB)
+0018.944 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.1 MB, 6505 files batched, 1001 (5906) added so far); re-opening (prior size: 30459.5 KB)
+0022.633 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 6000 files added (on-disk size: 36105.5 KB)
+0022.641 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 6100 files added (on-disk size: 36105.5 KB)
+0022.647 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 6200 files added (on-disk size: 36105.5 KB)
+0022.652 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 6300 files added (on-disk size: 36105.5 KB)
+0022.658 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 6400 files added (on-disk size: 36105.5 KB)
+0022.663 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.tmp: 6500 files added (on-disk size: 36105.5 KB)
+0026.143 (0) Creating zip file manifest (backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.list-temp.tmp)
+0026.213 (0) Successfully created zip file manifest (size: 515863)
+0026.850 (0) Created plugins zip (0) - 41269.6 KB in 26.7 s (1548.5 KB/s) (sha1: 91e62894f371cd553aa87638a352993984bcee39, sha256: 0817e352ae89ceb88650aa1e071a4faede55b8bf8458bfb08c6702781463685c)
+0026.862 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0026.864 (0) No remote despatch: user chose no remote backup service
+0026.866 (0) Recording as successfully uploaded: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip
+0026.870 (0) Deleting zip manifest (backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip.list.tmp)
+0026.875 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=3
+0026.878 (0) Number of backup sets in history: 2; groups (db): 1
+0026.879 (0) Examining (for databases) backup set with group_id=0, nonce=bd65cf5ef1ea, datestamp=1666023206 (Oct 17 2022 16:13:26)
+0026.881 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0026.881 (0) Examining (for databases) backup set with group_id=0, nonce=8e406d84e555, datestamp=1665952005 (Oct 16 2022 20:26:45)
+0026.882 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0026.884 (0) Number of backup sets in history: 2; groups (files): 1
+0026.886 (0) Examining (for files) backup set with nonce=bd65cf5ef1ea, datestamp=1666023206 (Oct 17 2022 16:13:26)
+0026.886 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0026.886 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0026.886 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0026.886 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0026.886 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0026.888 (0) Examining (for files) backup set with nonce=8e406d84e555, datestamp=1665952005 (Oct 16 2022 20:26:45)
+0026.888 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0026.888 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0026.899 (0) Beginning creation of dump of themes (split every: 400 MB)
+0027.133 (0) Total entities for the zip file: 111 directories, 503 files (0 skipped as non-modified), 11.2 MB
+0027.139 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0027.144 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0027.149 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0027.154 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0027.159 (0) Zip: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0030.244 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-themes.zip.tmp: size is now: 8.30 MB
+0030.255 (0) Creating zip file manifest (backup_2022-10-18-0416_SynchronicityyStream_586060113b52-themes.zip.list-temp.tmp)
+0030.263 (0) Successfully created zip file manifest (size: 33935)
+0030.408 (0) Created themes zip (0) - 8546.7 KB in 3.5 s (2439.5 KB/s) (sha1: 0e1fe3ddf8aa209c9ef56b3d793bc11293aa8936, sha256: dc0813e50c4e642223fdfa9c7c905d9543e9e11f39e6e12c1f4b25d04b005c10)
+0030.414 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0030.416 (0) No remote despatch: user chose no remote backup service
+0030.417 (0) Recording as successfully uploaded: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-themes.zip
+0030.421 (0) Deleting zip manifest (backup_2022-10-18-0416_SynchronicityyStream_586060113b52-themes.zip.list.tmp)
+0030.424 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=3
+0030.426 (0) Number of backup sets in history: 2; groups (db): 1
+0030.428 (0) Examining (for databases) backup set with group_id=0, nonce=bd65cf5ef1ea, datestamp=1666023206 (Oct 17 2022 16:13:26)
+0030.428 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0030.428 (0) Examining (for databases) backup set with group_id=0, nonce=8e406d84e555, datestamp=1665952005 (Oct 16 2022 20:26:45)
+0030.428 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0030.429 (0) Number of backup sets in history: 2; groups (files): 1
+0030.431 (0) Examining (for files) backup set with nonce=bd65cf5ef1ea, datestamp=1666023206 (Oct 17 2022 16:13:26)
+0030.431 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0030.431 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0030.431 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0030.431 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0030.431 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0030.433 (0) Examining (for files) backup set with nonce=8e406d84e555, datestamp=1665952005 (Oct 16 2022 20:26:45)
+0030.433 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0030.433 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0030.440 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0030.441 (0) Looking for candidates to backup in: /usr/home/sync23/public_html/synchronicityy.stream/wp-content/uploads
+0030.442 (0) finding files: 2022: adding to list (1)
+0030.443 (0) finding files: revslider: adding to list (2)
+0030.444 (0) finding files: 2021: adding to list (3)
+0030.446 (0) finding files: elementor: adding to list (4)
+0030.447 (0) finding files: ultimatemember: adding to list (5)
+0030.448 (0) finding files: 2020: adding to list (6)
+0030.449 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0030.638 (0) Total entities for the zip file: 57 directories, 65 files (0 skipped as non-modified), 71.6 MB
+0030.641 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 50.6 MB added on this batch (61 MB, 65 files batched, 26 (26) added so far); re-opening (prior size: 0 KB)
+0032.636 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-uploads.zip.tmp: size is now: 61.10 MB
+0032.639 (0) A useful amount of data was added after this amount of zip processing: 2.9 s (normalised: 2.4 s, rate: 21338.8 KB/s)
+0032.642 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.9294400215149, normalised_time=2.429052055322, max_time=32.640153884888, data points known=1, old_max_bytes=53076957, new_max_bytes=209715200)
+0037.063 (0) Creating zip file manifest (backup_2022-10-18-0416_SynchronicityyStream_586060113b52-uploads.zip.list-temp.tmp)
+0037.065 (0) Successfully created zip file manifest (size: 3935)
+0038.600 (0) Created uploads zip (0) - 73243.8 KB in 8.1 s (8990.2 KB/s) (sha1: 4caeb450f116a3ec37617529c11fcc8d70851274, sha256: 6b88d175203280ec58819c618f7f34c23fa0099a2dc4ba8c8996ac65970e03e2)
+0038.608 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0038.611 (0) No remote despatch: user chose no remote backup service
+0038.613 (0) Recording as successfully uploaded: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-uploads.zip
+0038.617 (0) Deleting zip manifest (backup_2022-10-18-0416_SynchronicityyStream_586060113b52-uploads.zip.list.tmp)
+0038.621 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=3
+0038.623 (0) Number of backup sets in history: 2; groups (db): 1
+0038.625 (0) Examining (for databases) backup set with group_id=0, nonce=bd65cf5ef1ea, datestamp=1666023206 (Oct 17 2022 16:13:26)
+0038.627 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0038.627 (0) Examining (for databases) backup set with group_id=0, nonce=8e406d84e555, datestamp=1665952005 (Oct 16 2022 20:26:45)
+0038.627 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.629 (0) Number of backup sets in history: 2; groups (files): 1
+0038.630 (0) Examining (for files) backup set with nonce=bd65cf5ef1ea, datestamp=1666023206 (Oct 17 2022 16:13:26)
+0038.630 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0038.630 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0038.630 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0038.630 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0038.630 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.632 (0) Examining (for files) backup set with nonce=8e406d84e555, datestamp=1665952005 (Oct 16 2022 20:26:45)
+0038.632 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.632 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0038.641 (0) Beginning backup of other directories found in the content directory (index: 0)
+0038.642 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0038.643 (0) Looking for candidates to backup in: /usr/home/sync23/public_html/synchronicityy.stream/wp-content
+0038.658 (0) finding files: upgrade: skipping: excluded by options
+0038.659 (0) finding files: mu-plugins: adding to list (1)
+0038.661 (0) finding files: cache: skipping: excluded by options
+0038.663 (0) finding files: languages: adding to list (2)
+0038.665 (0) finding files: wflogs: adding to list (3)
+0038.667 (0) finding files: index.php: adding to list (4)
+0038.668 (0) finding files: php.ini: adding to list (5)
+0038.670 (0) finding files: wp-cache-config.php: adding to list (6)
+0038.672 (0) finding files: advanced-cache.php: adding to list (7)
+0038.674 (0) finding files: uploads: skipping: this is the uploads directory
+0038.675 (0) finding files: updraft: skipping: this is the updraft directory
+0038.677 (0) finding files: themes: skipping: this is the themes directory
+0038.679 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0038.680 (0) finding files: plugins: skipping: this is the plugins directory
+0038.686 (0) Total entities for the zip file: 4 directories, 17 files (0 skipped as non-modified), 7 MB
+0039.483 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-others.zip.tmp: size is now: 3.30 MB
+0039.488 (0) Creating zip file manifest (backup_2022-10-18-0416_SynchronicityyStream_586060113b52-others.zip.list-temp.tmp)
+0039.490 (0) Successfully created zip file manifest (size: 577)
+0039.550 (0) Created others zip (0) - 3393.1 KB in 0.9 s (3920.6 KB/s) (sha1: 6cfee177cf93c1ff80f408473361796f236b3e4f, sha256: d0523ef2d4114f087fea9c666c89fca251657ec91902bfe33540f5573b991553)
+0039.557 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0039.559 (0) No remote despatch: user chose no remote backup service
+0039.561 (0) Recording as successfully uploaded: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-others.zip
+0039.565 (0) Deleting zip manifest (backup_2022-10-18-0416_SynchronicityyStream_586060113b52-others.zip.list.tmp)
+0039.570 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=3
+0039.572 (0) Number of backup sets in history: 2; groups (db): 1
+0039.574 (0) Examining (for databases) backup set with group_id=0, nonce=bd65cf5ef1ea, datestamp=1666023206 (Oct 17 2022 16:13:26)
+0039.574 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0039.574 (0) Examining (for databases) backup set with group_id=0, nonce=8e406d84e555, datestamp=1665952005 (Oct 16 2022 20:26:45)
+0039.574 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0039.576 (0) Number of backup sets in history: 2; groups (files): 1
+0039.577 (0) Examining (for files) backup set with nonce=bd65cf5ef1ea, datestamp=1666023206 (Oct 17 2022 16:13:26)
+0039.577 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0039.577 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0039.577 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0039.577 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0039.577 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0039.579 (0) Examining (for files) backup set with nonce=8e406d84e555, datestamp=1665952005 (Oct 16 2022 20:26:45)
+0039.579 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0039.579 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0039.593 (0) Saving backup status to database (elements: 8)
+0039.599 (0) Beginning creation of database dump (WordPress DB)
+0039.602 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0039.605 (0) Testing potential mysqldump binary: /usr/local/bin/mysqldump
+0039.673 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1608 bytes total)
+0039.675 (0) Working binary mysqldump found: /usr/local/bin/mysqldump
+0039.700 (0) Table wp_options: Total expected rows (via COUNT): 449
+0039.702 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.865 (0) Table wp_options: Rows added in this batch (next record: 71165): 444 (uncompressed bytes in this segment=3686588) in 0.18 seconds
+0039.875 (0) Table wp_options: finishing file(s) (2, 619.8 KB)
+0039.891 (0) Table wp_users: Total expected rows (via COUNT): 19
+0039.892 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.898 (0) Table wp_users: Rows added in this batch (next record: 58): 19 (uncompressed bytes in this segment=4186) in 0.01 seconds
+0039.905 (0) Table wp_users: finishing file(s) (2, 1.8 KB)
+0039.921 (0) Table wp_usermeta: Total expected rows (via COUNT): 520
+0039.923 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.931 (0) Table wp_usermeta: Rows added in this batch (next record: 1826): 520 (uncompressed bytes in this segment=60045) in 0.02 seconds
+0039.940 (0) Table wp_usermeta: finishing file(s) (2, 11.2 KB)
+0039.958 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0039.961 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.01 seconds
+0039.968 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0039.982 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0039.986 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1878) in 0.01 seconds
+0039.991 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0040.006 (0) Table wp_links: Total expected rows (via COUNT): 0
+0040.008 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1496) in 0.01 seconds
+0040.014 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0040.042 (0) Table wp_postmeta: Total expected rows (approximate): 3124
+0040.147 (0) Table wp_postmeta: Rows added in this batch (next record: 6001): 4347 (uncompressed bytes in this segment=4005964) in 0.13 seconds
+0040.157 (0) Table wp_postmeta: finishing file(s) (2, 105.2 KB)
+0040.177 (0) Table wp_posts: Total expected rows (via COUNT): 273
+0040.179 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.192 (0) Table wp_posts: Rows added in this batch (next record: 797): 273 (uncompressed bytes in this segment=192319) in 0.03 seconds
+0040.201 (0) Table wp_posts: finishing file(s) (2, 13.4 KB)
+0040.214 (0) Table wp_term_relationships: Total expected rows (approximate): 7
+0040.218 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 10 (uncompressed bytes in this segment=818) in 0.01 seconds
+0040.224 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0040.238 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 4
+0040.239 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.244 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1075) in 0.01 seconds
+0040.252 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0040.271 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0040.275 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=694) in 0.01 seconds
+0040.283 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0040.299 (0) Table wp_terms: Total expected rows (via COUNT): 4
+0040.303 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.309 (0) Table wp_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=875) in 0.02 seconds
+0040.316 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0040.342 (0) Table wp_nf3_action_meta: Total expected rows (via COUNT): 561
+0040.345 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.366 (0) Table wp_nf3_action_meta: Rows added in this batch (next record: 849): 561 (uncompressed bytes in this segment=79656) in 0.04 seconds
+0040.377 (0) Table wp_nf3_action_meta: finishing file(s) (2, 7.8 KB)
+0040.402 (0) Table wp_nf3_actions: Total expected rows (via COUNT): 22
+0040.403 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.409 (0) Table wp_nf3_actions: Rows added in this batch (next record: 33): 22 (uncompressed bytes in this segment=2716) in 0.02 seconds
+0040.419 (0) Table wp_nf3_actions: finishing file(s) (2, 0.8 KB)
+0040.442 (0) Table wp_nf3_chunks: Total expected rows (via COUNT): 2
+0040.443 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.449 (0) Table wp_nf3_chunks: Rows added in this batch (next record: 6): 2 (uncompressed bytes in this segment=164278) in 0.02 seconds
+0040.457 (0) Table wp_nf3_chunks: finishing file(s) (2, 7.3 KB)
+0040.477 (0) Table wp_nf3_field_meta: Total expected rows (approximate): 1438
+0040.492 (0) Table wp_nf3_field_meta: Rows added in this batch (next record: 3241): 1449 (uncompressed bytes in this segment=108615) in 0.03 seconds
+0040.507 (0) Table wp_nf3_field_meta: finishing file(s) (2, 14.6 KB)
+0040.534 (0) Table wp_nf3_fields: Total expected rows (via COUNT): 55
+0040.535 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.541 (0) Table wp_nf3_fields: Rows added in this batch (next record: 137): 55 (uncompressed bytes in this segment=13198) in 0.02 seconds
+0040.548 (0) Table wp_nf3_fields: finishing file(s) (2, 2.4 KB)
+0040.562 (0) Table wp_nf3_form_meta: Total expected rows (via COUNT): 320
+0040.563 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.568 (0) Table wp_nf3_form_meta: Rows added in this batch (next record: 484): 320 (uncompressed bytes in this segment=29201) in 0.01 seconds
+0040.575 (0) Table wp_nf3_form_meta: finishing file(s) (2, 4.2 KB)
+0040.586 (0) Table wp_nf3_forms: Total expected rows (via COUNT): 6
+0040.587 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.591 (0) Table wp_nf3_forms: Rows added in this batch (next record: 9): 6 (uncompressed bytes in this segment=1937) in 0.01 seconds
+0040.597 (0) Table wp_nf3_forms: finishing file(s) (2, 0.7 KB)
+0040.609 (0) Table wp_nf3_object_meta: Total expected rows (via COUNT): 2
+0040.610 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.612 (0) Table wp_nf3_object_meta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1780) in 0.01 seconds
+0040.618 (0) Table wp_nf3_object_meta: finishing file(s) (2, 0.7 KB)
+0040.632 (0) Table wp_nf3_objects: Total expected rows (via COUNT): 1
+0040.634 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.636 (0) Table wp_nf3_objects: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=704) in 0.01 seconds
+0040.643 (0) Table wp_nf3_objects: finishing file(s) (2, 0.4 KB)
+0040.658 (0) Table wp_nf3_relationships: Total expected rows (via COUNT): 0
+0040.662 (0) Table wp_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=691) in 0.01 seconds
+0040.669 (0) Table wp_nf3_relationships: finishing file(s) (2, 0.4 KB)
+0040.685 (0) Table wp_nf3_upgrades: Total expected rows (via COUNT): 6
+0040.687 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.694 (0) Table wp_nf3_upgrades: Rows added in this batch (next record: 9): 6 (uncompressed bytes in this segment=118984) in 0.02 seconds
+0040.700 (0) Table wp_nf3_upgrades: finishing file(s) (2, 12.7 KB)
+0040.714 (0) Table wp_revslider_css: Total expected rows (via COUNT): 109
+0040.716 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.723 (0) Table wp_revslider_css: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=91028) in 0.02 seconds
+0040.730 (0) Table wp_revslider_css: finishing file(s) (2, 4.9 KB)
+0040.748 (0) Table wp_revslider_css_bkp: Total expected rows (via COUNT): 47
+0040.750 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.754 (0) Table wp_revslider_css_bkp: Rows added in this batch (next record: 47): 47 (uncompressed bytes in this segment=15357) in 0.02 seconds
+0040.761 (0) Table wp_revslider_css_bkp: finishing file(s) (2, 1.8 KB)
+0040.770 (0) Table wp_revslider_layer_animations: Total expected rows (via COUNT): 0
+0040.774 (0) Table wp_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=537) in 0.01 seconds
+0040.779 (0) Table wp_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0040.790 (0) Table wp_revslider_layer_animations_bkp: Total expected rows (via COUNT): 0
+0040.792 (0) Table wp_revslider_layer_animations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=561) in 0.01 seconds
+0040.797 (0) Table wp_revslider_layer_animations_bkp: finishing file(s) (2, 0.3 KB)
+0040.811 (0) Table wp_revslider_navigations: Total expected rows (via COUNT): 0
+0040.813 (0) Table wp_revslider_navigations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=614) in 0.01 seconds
+0040.820 (0) Table wp_revslider_navigations: finishing file(s) (2, 0.3 KB)
+0040.835 (0) Table wp_revslider_navigations_bkp: Total expected rows (via COUNT): 0
+0040.836 (0) Table wp_revslider_navigations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=638) in 0.01 seconds
+0040.844 (0) Table wp_revslider_navigations_bkp: finishing file(s) (2, 0.3 KB)
+0040.857 (0) Table wp_revslider_sliders: Total expected rows (via COUNT): 1
+0040.859 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.862 (0) Table wp_revslider_sliders: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=675) in 0.01 seconds
+0040.870 (0) Table wp_revslider_sliders: finishing file(s) (2, 0.4 KB)
+0040.883 (0) Table wp_revslider_sliders_bkp: Total expected rows (via COUNT): 0
+0040.886 (0) Table wp_revslider_sliders_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=577) in 0.01 seconds
+0040.892 (0) Table wp_revslider_sliders_bkp: finishing file(s) (2, 0.3 KB)
+0040.906 (0) Table wp_revslider_slides: Total expected rows (via COUNT): 1
+0040.908 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.911 (0) Table wp_revslider_slides: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=649) in 0.01 seconds
+0040.919 (0) Table wp_revslider_slides: finishing file(s) (2, 0.4 KB)
+0040.931 (0) Table wp_revslider_slides_bkp: Total expected rows (via COUNT): 0
+0040.934 (0) Table wp_revslider_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=576) in 0.01 seconds
+0040.941 (0) Table wp_revslider_slides_bkp: finishing file(s) (2, 0.3 KB)
+0040.956 (0) Table wp_revslider_static_slides: Total expected rows (via COUNT): 1
+0040.958 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.962 (0) Table wp_revslider_static_slides: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=665) in 0.01 seconds
+0040.969 (0) Table wp_revslider_static_slides: finishing file(s) (2, 0.4 KB)
+0040.983 (0) Table wp_revslider_static_slides_bkp: Total expected rows (via COUNT): 0
+0040.988 (0) Table wp_revslider_static_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=588) in 0.01 seconds
+0040.999 (0) Table wp_revslider_static_slides_bkp: finishing file(s) (2, 0.3 KB)
+0041.019 (0) Table wp_um_metadata: Total expected rows (via COUNT): 0
+0041.021 (0) Table wp_um_metadata: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.01 seconds
+0041.029 (0) Table wp_um_metadata: finishing file(s) (2, 0.4 KB)
+0041.043 (0) Table wp_wfblockediplog: Total expected rows (approximate): 1163
+0041.066 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 2000): 1744 (uncompressed bytes in this segment=112125) in 0.03 seconds
+0041.077 (0) Table wp_wfblockediplog: finishing file(s) (2, 11 KB)
+0041.092 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 33
+0041.094 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0041.100 (0) Table wp_wfblocks7: Rows added in this batch (next record: 8208): 33 (uncompressed bytes in this segment=5267) in 0.01 seconds
+0041.107 (0) Table wp_wfblocks7: finishing file(s) (2, 1.2 KB)
+0041.122 (0) Table wp_wfconfig: Total expected rows (approximate): 257
+0041.182 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 269 (uncompressed bytes in this segment=851917) in 0.06 seconds
+0041.193 (0) Table wp_wfconfig: finishing file(s) (2, 431.8 KB)
+0041.218 (0) Table wp_wfcrawlers: Total expected rows (approximate): 6
+0041.220 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 1000): 8 (uncompressed bytes in this segment=1670) in 0.01 seconds
+0041.227 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.6 KB)
+0041.242 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0041.246 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=455) in 0.01 seconds
+0041.253 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0041.268 (0) Table wp_wffilemods: Total expected rows (approximate): 0
+0041.270 (0) Table wp_wffilemods: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=815) in 0.01 seconds
+0041.277 (0) Table wp_wffilemods: finishing file(s) (2, 0.4 KB)
+0041.290 (0) Table wp_wfhits: Total expected rows (approximate): 1587
+0041.359 (0) Table wp_wfhits: Rows added in this batch (next record: 13686): 1743 (uncompressed bytes in this segment=628568) in 0.08 seconds
+0041.367 (0) Table wp_wfhits: finishing file(s) (2, 52.3 KB)
+0041.383 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0041.386 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=475) in 0.01 seconds
+0041.393 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0041.410 (0) Table wp_wfissues: Total expected rows (via COUNT): 9
+0041.412 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0041.417 (0) Table wp_wfissues: Rows added in this batch (next record: 4032): 9 (uncompressed bytes in this segment=7851) in 0.01 seconds
+0041.424 (0) Table wp_wfissues: finishing file(s) (2, 2.4 KB)
+0041.436 (0) Table wp_wfknownfilelist: Total expected rows (via COUNT): 0
+0041.441 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=484) in 0.01 seconds
+0041.447 (0) Table wp_wfknownfilelist: finishing file(s) (2, 0.3 KB)
+0041.459 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0041.462 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=647) in 0.01 seconds
+0041.470 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0041.483 (0) Table wp_wflocs: Total expected rows (approximate): 1
+0041.487 (0) Table wp_wflocs: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=963) in 0.01 seconds
+0041.500 (0) Table wp_wflocs: finishing file(s) (2, 0.5 KB)
+0041.517 (0) Table wp_wflogins: Total expected rows (via COUNT): 1578
+0041.570 (0) Table wp_wflogins: Rows added in this batch (next record: 1578): 1578 (uncompressed bytes in this segment=348183) in 0.06 seconds
+0041.579 (0) Table wp_wflogins: finishing file(s) (2, 38.5 KB)
+0041.601 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0041.603 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=668) in 0.01 seconds
+0041.610 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0041.631 (0) Table wp_wfls_settings: Total expected rows (approximate): 21
+0041.634 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 24 (uncompressed bytes in this segment=1776) in 0.02 seconds
+0041.642 (0) Table wp_wfls_settings: finishing file(s) (2, 0.9 KB)
+0041.657 (0) Table wp_wfnotifications: Total expected rows (approximate): 0
+0041.659 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 9 (uncompressed bytes in this segment=3324) in 0.01 seconds
+0041.665 (0) Table wp_wfnotifications: finishing file(s) (2, 1 KB)
+0041.679 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0041.681 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=834) in 0.01 seconds
+0041.687 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0041.699 (0) Table wp_wfreversecache: Total expected rows (approximate): 2
+0041.701 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=1066) in 0.01 seconds
+0041.709 (0) Table wp_wfreversecache: finishing file(s) (2, 0.5 KB)
+0041.721 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0041.724 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=712) in 0.01 seconds
+0041.730 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0041.743 (0) Table wp_wfstatus: Total expected rows (via COUNT): 964
+0041.755 (0) Table wp_wfstatus: Rows added in this batch (next record: 20200): 964 (uncompressed bytes in this segment=93665) in 0.02 seconds
+0041.763 (0) Table wp_wfstatus: finishing file(s) (2, 14.9 KB)
+0041.777 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0041.779 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=561) in 0.01 seconds
+0041.785 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0041.788 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_options.table.tmpr71166.gz (1/57/fopen): adding to final database dump
+0041.835 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_options.table.gz (2/57/fopen): adding to final database dump
+0041.837 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_users.table.tmpr59.gz (3/57/fopen): adding to final database dump
+0041.839 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_users.table.gz (4/57/fopen): adding to final database dump
+0041.841 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_usermeta.table.tmpr1827.gz (5/57/fopen): adding to final database dump
+0041.844 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_usermeta.table.gz (6/57/fopen): adding to final database dump
+0041.850 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_commentmeta.table.tmpr0.gz (7/57/fopen): adding to final database dump
+0041.852 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_commentmeta.table.gz (8/57/fopen): adding to final database dump
+0041.854 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_comments.table.tmpr0.gz (9/57/fopen): adding to final database dump
+0041.856 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_comments.table.gz (10/57/fopen): adding to final database dump
+0041.857 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_links.table.tmpr0.gz (11/57/fopen): adding to final database dump
+0041.859 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_links.table.gz (12/57/fopen): adding to final database dump
+0041.861 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_postmeta.table.tmpr6002.gz (13/57/fopen): adding to final database dump
+0041.868 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_postmeta.table.gz (14/57/fopen): adding to final database dump
+0041.870 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_posts.table.tmpr798.gz (15/57/fopen): adding to final database dump
+0041.872 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_posts.table.gz (16/57/fopen): adding to final database dump
+0041.874 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_term_relationships.table.tmpr100001.gz (17/57/fopen): adding to final database dump
+0041.876 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_term_relationships.table.gz (18/57/fopen): adding to final database dump
+0041.877 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_term_taxonomy.table.tmpr5.gz (19/57/fopen): adding to final database dump
+0041.879 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_term_taxonomy.table.gz (20/57/fopen): adding to final database dump
+0041.881 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_termmeta.table.tmpr0.gz (21/57/fopen): adding to final database dump
+0041.883 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_termmeta.table.gz (22/57/fopen): adding to final database dump
+0041.885 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_terms.table.tmpr5.gz (23/57/fopen): adding to final database dump
+0041.886 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_terms.table.gz (24/57/fopen): adding to final database dump
+0041.888 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_action_meta.table.tmpr850.gz (25/57/fopen): adding to final database dump
+0041.890 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_action_meta.table.gz (26/57/fopen): adding to final database dump
+0041.892 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_actions.table.tmpr34.gz (27/57/fopen): adding to final database dump
+0041.894 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_actions.table.gz (28/57/fopen): adding to final database dump
+0041.895 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_chunks.table.tmpr7.gz (29/57/fopen): adding to final database dump
+0041.897 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_chunks.table.gz (30/57/fopen): adding to final database dump
+0041.898 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_field_meta.table.tmpr3242.gz (31/57/fopen): adding to final database dump
+0041.900 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_field_meta.table.gz (32/57/fopen): adding to final database dump
+0041.902 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_fields.table.tmpr138.gz (33/57/fopen): adding to final database dump
+0041.903 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_fields.table.gz (34/57/fopen): adding to final database dump
+0041.905 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_form_meta.table.tmpr485.gz (35/57/fopen): adding to final database dump
+0041.906 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_form_meta.table.gz (36/57/fopen): adding to final database dump
+0041.908 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_forms.table.tmpr10.gz (37/57/fopen): adding to final database dump
+0041.911 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_forms.table.gz (38/57/fopen): adding to final database dump
+0041.912 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_object_meta.table.tmpr3.gz (39/57/fopen): adding to final database dump
+0041.914 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_object_meta.table.gz (40/57/fopen): adding to final database dump
+0041.916 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_objects.table.tmpr2.gz (41/57/fopen): adding to final database dump
+0041.917 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_objects.table.gz (42/57/fopen): adding to final database dump
+0041.918 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_relationships.table.tmpr0.gz (43/57/fopen): adding to final database dump
+0041.920 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_relationships.table.gz (44/57/fopen): adding to final database dump
+0041.921 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_upgrades.table.tmpr10.gz (45/57/fopen): adding to final database dump
+0041.923 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_nf3_upgrades.table.gz (46/57/fopen): adding to final database dump
+0041.925 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_css.table.tmpr110.gz (47/57/fopen): adding to final database dump
+0041.927 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_css.table.gz (48/57/fopen): adding to final database dump
+0041.928 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_css_bkp.table.tmpr48.gz (49/57/fopen): adding to final database dump
+0041.929 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_css_bkp.table.gz (50/57/fopen): adding to final database dump
+0041.930 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_layer_animations.table.tmpr0.gz (51/57/fopen): adding to final database dump
+0041.931 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_layer_animations.table.gz (52/57/fopen): adding to final database dump
+0041.932 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_layer_animations_bkp.table.tmpr0.gz (53/57/fopen): adding to final database dump
+0041.933 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_layer_animations_bkp.table.gz (54/57/fopen): adding to final database dump
+0041.935 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_navigations.table.tmpr0.gz (55/57/fopen): adding to final database dump
+0041.936 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_navigations.table.gz (56/57/fopen): adding to final database dump
+0041.938 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_navigations_bkp.table.tmpr0.gz (57/57/fopen): adding to final database dump
+0041.939 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_navigations_bkp.table.gz (58/57/fopen): adding to final database dump
+0041.940 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_sliders.table.tmpr2.gz (59/57/fopen): adding to final database dump
+0041.941 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_sliders.table.gz (60/57/fopen): adding to final database dump
+0041.941 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_sliders_bkp.table.tmpr0.gz (61/57/fopen): adding to final database dump
+0041.942 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_sliders_bkp.table.gz (62/57/fopen): adding to final database dump
+0041.943 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_slides.table.tmpr2.gz (63/57/fopen): adding to final database dump
+0041.944 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_slides.table.gz (64/57/fopen): adding to final database dump
+0041.945 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_slides_bkp.table.tmpr0.gz (65/57/fopen): adding to final database dump
+0041.947 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_slides_bkp.table.gz (66/57/fopen): adding to final database dump
+0041.948 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_static_slides.table.tmpr2.gz (67/57/fopen): adding to final database dump
+0041.949 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_static_slides.table.gz (68/57/fopen): adding to final database dump
+0041.950 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_static_slides_bkp.table.tmpr0.gz (69/57/fopen): adding to final database dump
+0041.951 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_revslider_static_slides_bkp.table.gz (70/57/fopen): adding to final database dump
+0041.952 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_um_metadata.table.tmpr0.gz (71/57/fopen): adding to final database dump
+0041.953 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_um_metadata.table.gz (72/57/fopen): adding to final database dump
+0041.954 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfblockediplog.table.tmpr2001.gz (73/57/fopen): adding to final database dump
+0041.955 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfblockediplog.table.gz (74/57/fopen): adding to final database dump
+0041.956 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfblocks7.table.tmpr8209.gz (75/57/fopen): adding to final database dump
+0041.957 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfblocks7.table.gz (76/57/fopen): adding to final database dump
+0041.959 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfconfig.table.tmpr1001.gz (77/57/fopen): adding to final database dump
+0041.978 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfconfig.table.gz (78/57/fopen): adding to final database dump
+0041.979 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfcrawlers.table.tmpr1001.gz (79/57/fopen): adding to final database dump
+0041.981 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfcrawlers.table.gz (80/57/fopen): adding to final database dump
+0041.983 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wffilechanges.table.tmpr1.gz (81/57/fopen): adding to final database dump
+0041.985 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wffilechanges.table.gz (82/57/fopen): adding to final database dump
+0041.986 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wffilemods.table.tmpr1.gz (83/57/fopen): adding to final database dump
+0041.987 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wffilemods.table.gz (84/57/fopen): adding to final database dump
+0041.989 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfhits.table.tmpr13687.gz (85/57/fopen): adding to final database dump
+0041.992 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfhits.table.gz (86/57/fopen): adding to final database dump
+0041.997 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfhoover.table.tmpr0.gz (87/57/fopen): adding to final database dump
+0042.000 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfhoover.table.gz (88/57/fopen): adding to final database dump
+0042.001 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfissues.table.tmpr4033.gz (89/57/fopen): adding to final database dump
+0042.003 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfissues.table.gz (90/57/fopen): adding to final database dump
+0042.005 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfknownfilelist.table.tmpr0.gz (91/57/fopen): adding to final database dump
+0042.007 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfknownfilelist.table.gz (92/57/fopen): adding to final database dump
+0042.008 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wflivetraffichuman.table.tmpr1.gz (93/57/fopen): adding to final database dump
+0042.010 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wflivetraffichuman.table.gz (94/57/fopen): adding to final database dump
+0042.012 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wflocs.table.tmpr1001.gz (95/57/fopen): adding to final database dump
+0042.013 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wflocs.table.gz (96/57/fopen): adding to final database dump
+0042.015 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wflogins.table.tmpr1579.gz (97/57/fopen): adding to final database dump
+0042.018 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wflogins.table.gz (98/57/fopen): adding to final database dump
+0042.021 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (99/57/fopen): adding to final database dump
+0042.025 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfls_2fa_secrets.table.gz (100/57/fopen): adding to final database dump
+0042.026 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfls_settings.table.tmpr1001.gz (101/57/fopen): adding to final database dump
+0042.028 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfls_settings.table.gz (102/57/fopen): adding to final database dump
+0042.029 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfnotifications.table.tmpr1001.gz (103/57/fopen): adding to final database dump
+0042.031 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfnotifications.table.gz (104/57/fopen): adding to final database dump
+0042.032 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfpendingissues.table.tmpr0.gz (105/57/fopen): adding to final database dump
+0042.034 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfpendingissues.table.gz (106/57/fopen): adding to final database dump
+0042.035 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfreversecache.table.tmpr1001.gz (107/57/fopen): adding to final database dump
+0042.037 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfreversecache.table.gz (108/57/fopen): adding to final database dump
+0042.038 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfsnipcache.table.tmpr0.gz (109/57/fopen): adding to final database dump
+0042.040 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfsnipcache.table.gz (110/57/fopen): adding to final database dump
+0042.042 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfstatus.table.tmpr20201.gz (111/57/fopen): adding to final database dump
+0042.044 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wfstatus.table.gz (112/57/fopen): adding to final database dump
+0042.048 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wftrafficrates.table.tmpr1.gz (113/57/fopen): adding to final database dump
+0042.050 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db-table-wp_wftrafficrates.table.gz (114/57/fopen): adding to final database dump
+0042.065 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db.gz: finished writing out complete database file (1375 KB)
+0042.124 (0) Total database tables backed up: 57 (backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db.gz, size: 1408112, sha1: c2cdca5eeb84f9f50cee92c0f21d24d0462fa20e, sha256: 2bd28cbfb14a08a46a9c6b5a0191ffba6e72fae96614be371947eb0e0351fa07)
+0042.176 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-plugins.zip: plugins: This file has already been successfully uploaded
+0042.185 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-themes.zip: themes: This file has already been successfully uploaded
+0042.196 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-uploads.zip: uploads: This file has already been successfully uploaded
+0042.204 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-others.zip: others: This file has already been successfully uploaded
+0042.209 (0) backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db.gz: db: This file has not yet been successfully uploaded: will queue
+0042.225 (0) Saving backup history. Total backup size: 124.8 MB
+0042.249 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0042.293 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0042.310 (0) No remote despatch: user chose no remote backup service
+0042.329 (0) Recording as successfully uploaded: backup_2022-10-18-0416_SynchronicityyStream_586060113b52-db.gz
+0042.398 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=3
+0042.417 (0) Number of backup sets in history: 3; groups (db): 1
+0042.429 (0) Examining (for databases) backup set with group_id=0, nonce=586060113b52, datestamp=1666066592 (Oct 18 2022 04:16:32)
+0042.434 (0) This backup set is the backup set just made, so will not be deleted.
+0042.434 (0) Examining (for databases) backup set with group_id=0, nonce=bd65cf5ef1ea, datestamp=1666023206 (Oct 17 2022 16:13:26)
+0042.434 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0042.434 (0) Examining (for databases) backup set with group_id=0, nonce=8e406d84e555, datestamp=1665952005 (Oct 16 2022 20:26:45)
+0042.434 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.435 (0) Number of backup sets in history: 3; groups (files): 1
+0042.439 (0) Examining (for files) backup set with nonce=586060113b52, datestamp=1666066592 (Oct 18 2022 04:16:32)
+0042.439 (0) This backup set is the backup set just made, so will not be deleted.
+0042.443 (0) This backup set is the backup set just made, so will not be deleted.
+0042.443 (0) This backup set is the backup set just made, so will not be deleted.
+0042.443 (0) This backup set is the backup set just made, so will not be deleted.
+0042.443 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.446 (0) Examining (for files) backup set with nonce=bd65cf5ef1ea, datestamp=1666023206 (Oct 17 2022 16:13:26)
+0042.446 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0042.446 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0042.446 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0042.446 (0) This backup set (1666023206) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0042.446 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.446 (0) Examining (for files) backup set with nonce=8e406d84e555, datestamp=1665952005 (Oct 16 2022 20:26:45)
+0042.446 (0) plugins: over retain limit (2); will delete this file entity
+0042.446 (0) themes: over retain limit (2); will delete this file entity
+0042.446 (0) uploads: over retain limit (2); will delete this file entity
+0042.446 (0) others: over retain limit (2); will delete this file entity
+0042.446 (0) Delete file: backup_2022-10-16-2026_SynchronicityyStream_8e406d84e555-plugins.zip, service=none
+0042.448 (0) Deleting local copy (backup_2022-10-16-2026_SynchronicityyStream_8e406d84e555-plugins.zip)
+0042.474 (0) Delete file: backup_2022-10-16-2026_SynchronicityyStream_8e406d84e555-themes.zip, service=none
+0042.476 (0) Deleting local copy (backup_2022-10-16-2026_SynchronicityyStream_8e406d84e555-themes.zip)
+0042.540 (0) Delete file: backup_2022-10-16-2026_SynchronicityyStream_8e406d84e555-uploads.zip, service=none
+0042.542 (0) Deleting local copy (backup_2022-10-16-2026_SynchronicityyStream_8e406d84e555-uploads.zip)
+0042.547 (0) Delete file: backup_2022-10-16-2026_SynchronicityyStream_8e406d84e555-others.zip, service=none
+0042.549 (0) Deleting local copy (backup_2022-10-16-2026_SynchronicityyStream_8e406d84e555-others.zip)
+0042.557 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.558 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0042.565 (0) Resume backup (586060113b52, 0): finish run
+0042.568 (0) Decremented the semaphore (fd) by 1
+0042.570 (0) Semaphore (fd) unlocked
+0042.571 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0042.576 (0) No email will/can be sent - the user has not configured an email address.
+0042.577 (0) The backup apparently succeeded and is now complete

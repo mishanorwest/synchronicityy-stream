@@ -1,0 +1,10 @@
+CFLAGS= -I/usr/include/python3.7m -shared -fPIC
+CC=/usr/bin/gcc -L/usr/lib/x86_64-linux-gnu
+
+OBJECTS=atlaspy3.o  FileWork.o FindCity.o Searches.o LinuxPorting.o 
+
+LIBS=-lpython3.7m
+atlas.so: $(OBJECTS)
+	$(CC) $(CFLAGS) $(OBJECTS) $(LIBS) -o atlas.so
+
+
